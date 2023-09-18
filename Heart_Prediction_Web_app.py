@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model 
-loaded_model = pickle.load(open('Heart_Disease_Prediction_Model/trained_model.sav','rb'))
+loaded_model = pickle.load(open('https://drive.google.com/file/d/1HOKKBzhRzFKg9ZNoduEcJPn8o_8bg4s0/view?usp=sharing','rb'))
 
 def Heart_prediction(input_data):
     array = np.asarray(input_data)
